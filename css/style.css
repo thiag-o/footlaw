@@ -1,0 +1,25 @@
+/* global */
+
+@import './global/global.css';
+@import './global/cor.css';
+@import './global/tipografia.css';
+
+
+/* introducao */
+
+@import './introducao.css';
+
+/*main*/
+@import './fabricacao.css';
+@import './caracteristicas.css';
+
+
+/* tenis */
+@import './tenis.css';
+
+
+/* loja */
+@import './loja.css';
+
+/* footer */
+@import './footer.css';

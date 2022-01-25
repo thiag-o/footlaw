@@ -1,0 +1,71 @@
+.tenis h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.tenis-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+
+.tenis-titulo h3 {
+    text-align: center;
+}
+
+.tenis-titulo {
+    background: var(--grad-p);
+    padding: 15px 0;
+    border-radius: 4px 4px 0 0 ;
+}
+
+.tenis-item img{
+    height: 600px;
+    object-fit: cover;
+    border-radius: 0 0 4px 4px;
+
+}
+
+
+
+.tenis-fundo{
+   background: var(--cor-c10);
+   box-shadow: inset 0 198px white;
+   padding-bottom: 120px;
+}
+
+@media(max-width:800px){
+    .tenis-fundo{
+        box-shadow: inset 0 120px white;
+        padding-bottom: 80px;
+     }
+     .tenis h2 {
+        margin-bottom: 32px;
+    }
+    .tenis-conteudo{
+        gap: 20px;
+    }
+    .tenis-item img{
+        height: 300px;
+    }
+    .tenis-titulo{
+        padding: 8px 0;
+    }
+}
+
+@media(max-width:500px){
+    .tenis-fundo{
+        box-shadow: inset 0 60px white;
+        padding-bottom: 60px;
+     }
+    .tenis-conteudo{
+        gap: 12px;
+    }
+    .tenis-item img{
+        height: 180px;
+    }
+    .tenis-titulo{
+        padding: 8px 0;
+    }
+}

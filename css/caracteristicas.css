@@ -1,0 +1,66 @@
+.caracteristicas{
+    margin-bottom: 240px;
+    position: relative;
+}
+
+.caracteristicas::after{
+    content: "";
+    display: block;
+    width: 20vw;
+    height: 2px;
+    background: black;
+    right: 0px;
+    position: absolute;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.caracteristicas h2{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.caracteristicas-conteudo{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.caracteristicas-conteudo p{
+    text-align: center;
+}
+
+.caracteristicas-conteudo p span{
+    font-weight: 600;
+}
+
+
+.caracteristicas-conteudo img{
+    height: 32px;
+    margin-top: 24px;
+}
+
+@media (max-width:800px){
+    .caracteristicas::after{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .caracteristicas{
+        margin-bottom: 160px;
+    }
+}
+
+@media (max-width:500px){
+    .caracteristicas-conteudo{
+        gap: 32px;
+    }
+    .caracteristicas-conteudo img{
+        margin-top: 16px;
+    }
+
+    .caracteristicas-conteudo h2 {
+        margin-bottom: 32px;
+    }
+}
